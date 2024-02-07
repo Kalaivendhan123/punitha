@@ -1,0 +1,129 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "amazon",
+    "line": 9,
+    "description": "",
+    "id": "amazon",
+    "tags": [],
+    "uri": "Smoke/amazon",
+    "testSuiteName": "Smoke",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://amazon.com",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": false,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "amazon",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 9,
+        "name": "amazon",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Failed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://amazon.com",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://amazon.com",
+            "match": {
+              "location": "amazon/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on xpath=//div[@id='nav-main']/div/div/div/div[3]/span/span/input",
+            "match": {
+              "location": "amazon/11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 28048000000,
+              "error_message": "Name: NoSuchWindowError\r\nMessage: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=121.0.6167.140)\r\nStacktrace: NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=121.0.6167.140)\n\tat Object.throwDecodedError (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n\tat parseHttpResponse (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\http.js:565:13)\n\tat Executor.execute (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\http.js:491:26)\n\tat processTicksAndRejections (internal/process/task_queues.js:85:5)\n\tat async thenableWebDriverProxy.execute (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\webdriver.js:700:17)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on xpath=//div[@id='nav-xshop']/a",
+            "match": {
+              "location": "amazon/21"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on xpath=//a[contains(text(),'Registry')]",
+            "match": {
+              "location": "amazon/31"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "click on xpath=//a[contains(text(),'Sell')]",
+            "match": {
+              "location": "amazon/41"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

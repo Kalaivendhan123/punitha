@@ -1,0 +1,29 @@
+{
+  "reports": [
+    {
+      "name": "Smoke",
+      "dir": ".qas-data/.test-results/07_Feb_2024_9_38_38_AM",
+      "startTime": 1707278918484
+    },
+    {
+      "name": "Smoke",
+      "dir": ".qas-data/.test-results/07_Feb_2024_9_38_13_AM",
+      "startTime": 1707278893820
+    },
+    {
+      "name": "Smoke",
+      "dir": ".qas-data/.test-results/07_Feb_2024_9_37_09_AM",
+      "startTime": 1707278829315
+    },
+    {
+      "name": "Smoke",
+      "dir": ".qas-data/.test-results/07_Feb_2024_9_27_59_AM",
+      "startTime": 1707278279794
+    },
+    {
+      "name": "Smoke",
+      "dir": ".qas-data/.test-results/07_Feb_2024_9_25_41_AM",
+      "startTime": 1707278141940
+    }
+  ]
+}

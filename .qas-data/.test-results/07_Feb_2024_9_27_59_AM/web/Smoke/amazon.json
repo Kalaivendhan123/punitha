@@ -1,0 +1,48 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://amazon.com",
+      "type": "TestStepPass",
+      "duration": 8224,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='nav-main']/div/div/div/div[3]/span/span/input",
+      "type": "TestStepFail",
+      "duration": 28048,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Name: NoSuchWindowError\r\nMessage: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=121.0.6167.140)\r\nStacktrace: NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=121.0.6167.140)\n\tat Object.throwDecodedError (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n\tat parseHttpResponse (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\http.js:565:13)\n\tat Executor.execute (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\http.js:491:26)\n\tat processTicksAndRejections (internal/process/task_queues.js:85:5)\n\tat async thenableWebDriverProxy.execute (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\webdriver.js:700:17)",
+          "type": "fail",
+          "duration": 28048,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And click on xpath=//div[@id='nav-xshop']/a",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Registry')]",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Sell')]",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

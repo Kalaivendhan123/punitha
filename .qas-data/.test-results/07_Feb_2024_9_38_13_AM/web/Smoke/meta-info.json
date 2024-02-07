@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "author": "kalaivendhan.desingu",
+        "description": "",
+        "groups": [],
+        "lineNo": 0,
+        "name": "login",
+        "referece": "",
+        "resultFileName": "login",
+        "testSuiteName": "Smoke",
+        "sign": "",
+        "executedOn": "Local"
+      },
+      "dependsOn": [],
+      "startTime": 0,
+      "duration": 11068000000,
+      "result": "pass",
+      "passPer": 0
+    }
+  ]
+}
